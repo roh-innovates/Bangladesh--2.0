@@ -46,68 +46,6 @@
     font-style: normal;
   }
   
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
-  
-
   /* Header section styles */
 nav{
     display: flex;
@@ -116,7 +54,7 @@ nav{
     padding: 1px 180px;
 }
 nav h3{
-    font-size: 35px;
+    font-size: 30px;
 }
 .sign-in-button{
     font-size: 18px;
@@ -130,7 +68,7 @@ nav h3{
 .banner{
     display: flex;
     background-color: #C6E4D6;
-    margin: 0 180px 200px 180px;
+    margin: 0 180px 100px 180px;
     border-radius: 24px;
     gap: 140px;
 
@@ -157,4 +95,91 @@ nav h3{
     background-color: #006A50;
     color: white;
     border: none;
+}
+/* shared styles */
+.green{
+    max-width: 90px;
+    max-height: 65px;
+    margin-left: -6px;
+}
+
+.builing-logo{
+    max-width: 90px;
+    max-height: 65px;
+    margin-left: -6px;
+}
+
+/* The Vision of Future section */
+
+.tvf-container{
+    padding: 0 180px 0 180px ;
+    margin-bottom: 100px;
+}
+.tvf-sectors{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+.tvf-sector-dt{
+    background-color:rgba(84, 144, 245, 0.2);
+    padding: 30px;
+    border-radius: 16px;
+    font-size: 20px;
+
+}
+.tvf-sector-ge{
+    background-color: #C6E4D6;
+    -webkit-stroke: #09A15C ;
+    padding: 30px;
+    border-radius: 16px;
+    font-size: 20px;
+
+
+
+}
+.tvf-sector-mi{
+    background-color: #F7EBCF;
+    -webkit-stroke: 2px #FFC239;
+    padding: 30px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+section h1{
+    font-size: 40px;
+    /* margin-top:-40px; */
+    margin-bottom: -1px;
+}
+.tvf-description{
+    color:rgba(14, 14, 14, 0.7);
+}
+
+.button-dt{
+    background-color: #5490F5;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+
+
+}
+.button-ge{
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+
+
+}
+.button-mi{
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
 }
