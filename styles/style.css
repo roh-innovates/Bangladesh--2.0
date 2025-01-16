@@ -68,7 +68,7 @@ nav h3{
 .banner{
     display: flex;
     background-color: #C6E4D6;
-    margin: 0 180px 100px 180px;
+    margin: 0 180px 110px 180px;
     border-radius: 24px;
     gap: 140px;
 
@@ -97,17 +97,25 @@ nav h3{
     border: none;
 }
 /* shared styles */
+.digital-logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
 .green{
     max-width: 90px;
     max-height: 65px;
-    margin-left: -6px;
+    /* margin-left: -6px; */
 }
 
 .builing-logo{
-    max-width: 90px;
-    max-height: 65px;
-    margin-left: -6px;
+    max-width: 100px;
+    max-height: 80px;
+    /* margin-left: -2px; */
+    margin-bottom:-20px;
 }
+
 
 /* The Vision of Future section */
 
@@ -182,4 +190,34 @@ section h1{
     border: none;
     padding: 11px 20px;
     border-radius: 8px;
+}
+
+/* Quote styles */
+
+.quote-container{
+    
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    box-sizing: content-box;
+    margin: -50px 180px 0 180px ;
+    padding: 30px;
+}
+.quote-items{
+    /* padding:  180px 0 180px ; */
+}
+
+.quote-text{
+    margin-top: -43px;
+    
+}
+.person-name{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.person-designation{
+    margin-top: -10px;
+}
+.quote-text{
+    line-height: 24px;
 }
