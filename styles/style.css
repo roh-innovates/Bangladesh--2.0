@@ -46,6 +46,14 @@
     font-style: normal;
   }
   
+
+  /* Master class */
+.master-class{
+    background-color: rgba(241, 241, 243, 1);
+}
+
+
+
   /* Header section styles */
 nav{
     display: flex;
@@ -97,25 +105,10 @@ nav h3{
     border: none;
 }
 /* shared styles */
-.digital-logo{
-    max-width: 50px;
-    max-height: 50px;
-    margin-top: 15px;
-    margin-left: 5px;
+.regular-font{
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
 }
-.green{
-    max-width: 90px;
-    max-height: 65px;
-    /* margin-left: -6px; */
-}
-
-.builing-logo{
-    max-width: 100px;
-    max-height: 80px;
-    /* margin-left: -2px; */
-    margin-bottom:-20px;
-}
-
 
 /* The Vision of Future section */
 
@@ -137,6 +130,8 @@ nav h3{
     padding: 30px;
     border-radius: 16px;
     font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
 
 }
 .tvf-sector-ge{
@@ -145,8 +140,8 @@ nav h3{
     padding: 30px;
     border-radius: 16px;
     font-size: 20px;
-
-
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
 
 }
 .tvf-sector-mi{
@@ -155,15 +150,39 @@ nav h3{
     padding: 30px;
     border-radius: 16px;
     font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+   
+}
+.digital-logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.green{
+    max-width: 90px;
+    max-height: 65px;
+    /* margin-left: -6px; */
+}
+
+.builing-logo{
+    max-width: 100px;
+    max-height: 85px;
+    /* margin-left: -2px; */
+    margin-bottom:-20px;
 }
 
 section h1{
     font-size: 40px;
     /* margin-top:-40px; */
     margin-bottom: -1px;
+    color: #0E0E0E;
 }
 .tvf-description{
     color:rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+
 }
 
 .button-dt{
@@ -200,7 +219,7 @@ section h1{
     border: 2px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     box-sizing: content-box;
-    margin: -50px 180px 0 180px ;
+    margin: -70px 180px 0 180px ;
     padding: 30px;
 }
 .quote-items{
@@ -208,16 +227,87 @@ section h1{
 }
 
 .quote-text{
-    margin-top: -43px;
-    
+    margin-top: -44px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;   
 }
 .person-name{
     font-size: 20px;
     margin-bottom: 14px;
+    color: rgba(14, 14, 14, 0.8);
 }
 .person-designation{
     margin-top: -10px;
+    color: (14, 14, 14, 0.6);
 }
-.quote-text{
+
+/* News styles */
+.news-elements{
+    padding: 40px 180px 0 180px ;
+   
+}
+.news-heading{
+    color: #0E0E0E;
+    font-size: 40px;
+}
+.news-about{
+    color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
+   
 }
+.news-card1{
+    display: flex;
+    background-color: white;
+    border: 0;
+    border-radius: 24px;
+    padding: 48px;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+.news-card2{
+    display: flex;
+    background-color: white;
+    border: 0;
+    border-radius: 24px;
+    padding: 48px;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+.news-img-holding{
+    margin-right: 32px;
+    border-radius: 24px;
+    border:0;
+}
+.news-img-holding img{
+    border-radius: 24px;
+    border: 0;
+}
+.news-img-holder{
+    margin-left: 32px;
+    border-radius: 24px;
+    border:0;
+}
+.news-img-holder img{
+    border-radius: 24px;
+    border: 0;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+}
+.card-content{
+    padding: 12px;
+    margin-top: -25px;
+}
+.rm-button{
+    font-size: 18px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+}
+.date-time{
+    margin: 10px 0 10px 0;
+}
+
