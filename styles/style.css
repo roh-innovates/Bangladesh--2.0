@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
@@ -70,8 +72,12 @@ nav h3{
     border-color: #006A50 ;
     border-radius: 8px;
     padding: 15px 30px;
-    background-color: white;
-    
+    background-color: white;  
+}
+.sign-in-button:hover{
+    background:rgba(211, 211, 211, 0.659);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
 }
 .banner{
     display: flex;
@@ -79,12 +85,15 @@ nav h3{
     margin: 0 180px 110px 180px;
     border-radius: 24px;
     gap: 140px;
-
+}
+.banner:hover{
+    background-color: #A8D2BE;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
 .banner-subtitle{
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
-
 }
 .banner-title{
     font-size: 56px;
@@ -103,6 +112,12 @@ nav h3{
     background-color: #006A50;
     color: white;
     border: none;
+}
+.banner-button:hover{
+    background-color: #ffc4a3; /* Peach */
+    color: #006A50; /* Deep green */
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
 }
 /* shared styles */
 .regular-font{
@@ -132,27 +147,37 @@ nav h3{
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
     line-height: 24px;
-
+}
+.tvf-sector-dt:hover{
+    background-color: #A3BFF7;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
 .tvf-sector-ge{
     background-color: #C6E4D6;
-    -webkit-stroke: #09A15C ;
     padding: 30px;
     border-radius: 16px;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
     line-height: 24px;
-
+}
+.tvf-sector-ge:hover{
+    background-color: #A5D0A1;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
 .tvf-sector-mi{
     background-color: #F7EBCF;
-    -webkit-stroke: 2px #FFC239;
     padding: 30px;
     border-radius: 16px;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
-    line-height: 24px;
-   
+    line-height: 24px;  
+}
+.tvf-sector-mi:hover{
+    background-color: #e4f0c3;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
 .digital-logo{
     max-width: 50px;
@@ -191,8 +216,12 @@ section h1{
     border: none;
     padding: 11px 20px;
     border-radius: 8px;
-
-
+}
+.button-dt:hover{
+    background-color: #3d7bd5;
+    color: white;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
 }
 .button-ge{
     background-color: #09A15C;
@@ -200,8 +229,12 @@ section h1{
     border: none;
     padding: 11px 20px;
     border-radius: 8px;
-
-
+}
+.button-ge:hover{
+    background-color: #2C6B45;
+    color: white;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
 }
 .button-mi{
     background-color: #FFC239;
@@ -210,22 +243,29 @@ section h1{
     padding: 11px 20px;
     border-radius: 8px;
 }
+.button-mi:hover{
+    background-color: #FF7F00;
+    color: white;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+}
 
 /* Quote styles */
 
 .quote-container{
     
     background-color: rgba(255, 255, 255, 1);
-    border: 2px solid rgba(14, 14, 14, 0.15);
+    border: 1 px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     box-sizing: content-box;
     margin: -70px 180px 0 180px ;
     padding: 30px;
 }
-.quote-items{
-    /* padding:  180px 0 180px ; */
+.quote-container:hover{
+    background-color: #ffe6e6;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
-
 .quote-text{
     margin-top: -44px;
     color: rgba(14, 14, 14, 0.8);
@@ -264,6 +304,11 @@ section h1{
     margin: 20px 0 20px 0;
     align-items: center;
 }
+.news-card1:hover{
+    background-color: #cce7ff;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
+}
 .news-card2{
     display: flex;
     background-color: white;
@@ -272,6 +317,11 @@ section h1{
     padding: 48px;
     margin: 20px 0 20px 0;
     align-items: center;
+}
+.news-card2:hover{
+    background-color: #cce7ff;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
 }
 .news-img-holding{
     margin-right: 32px;
@@ -299,6 +349,12 @@ section h1{
     padding: 12px;
     margin-top: -25px;
 }
+.news-text{
+    margin-top: -8px;
+}
+.dt-spacing{
+    margin-top: -12px;
+}
 .rm-button{
     font-size: 18px;
     padding: 13px 26px;
@@ -307,7 +363,191 @@ section h1{
     color: white;
     border: none;
 }
-.date-time{
-    margin: 10px 0 10px 0;
+.rm-button:hover{
+    background-color: #ffc4a3; /* Peach */
+    color: #006A50; /* Deep green */
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+
 }
+.dt-spacing{
+    display: flex;
+}
+.date-time2{
+    margin-left: 12px;
+}
+
+/* Donation area styles */
+
+.donate-items{
+    text-align: center;
+    margin: 40px 180px 0 180px ;
+    border-radius: 24px;
+}
+.dnt-heading{
+    color: #0E0E0E;
+    font-size: 40px;
+    margin: 80px 0 24px 0;
+}
+.dnt-descpription{
+    padding: 0 110px 0 110px;
+}
+.tk-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.tk-holder{
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    font-size: 40px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.th1:hover {
+    background:rgba(211, 211, 211, 0.659);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+  }
+.th3:hover {
+    background:rgba(211, 211, 211, 0.659);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+  }
+.th4:hover {
+    background:rgba(211, 211, 211, 0.659);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+  }
+  
+.tk-hold{
+    color: rgba(14, 14, 14, 0.8);
+    padding:40px;
+    font-size: 40px;
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.tk-hold:hover{
+    opacity: 1;
+    background: rgba(0, 106, 80, 1);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+}
+.other-amnt-tk{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+
+}
+.other-amnt-tk::placeholder{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 400px;
+    text-overflow: ellipsis;
+}
+.cnfrmtn-text{
+    color: rgba(14, 14, 14, 0.7);
+}
+.done-btn{
+    margin: 32px 0 80px;;
+}
+.d-button{
+    font-size: 18px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+}
+.d-button:hover{
+    background-color: #ffc4a3; /* Peach */
+    color: #006A50; /* Deep green */
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+}
+
+/* News letter styles */
+.sub-newsletter-container{
+    margin-bottom: 100px;
+}
+
+.newsletter-items{
+    text-align: center;
+    margin: 0 180px 0 180px;
+    background-color: rgba(198, 228, 214, 1) ;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+.newsletter-items:hover{
+    background-color: #A8D2BE;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: text;
+}
+.mailsub-lining{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.subs-heading{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.sub-description{
+    padding: 0 240px 0 240px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.promise{
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 24px;
+}
+.mail-box{
+    width: 750px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.mail-box::placeholder{
+    text-align: left;
+    padding:18px 0 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+.sub-btn{
+    font-size: 18px;
+    padding: 17px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+}
+.sub-btn:hover{
+    background-color: #E2D8D1; /* Peach */
+    color: white; /* Deep green */
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+}
+.mailsub-lining{
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
 
